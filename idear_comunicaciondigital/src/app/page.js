@@ -209,7 +209,7 @@ export default function Home() {
     <video src= 
 "/vid.mp4"
 autoPlay="{true}" loop muted 
-            className="absolute  top-0 left-0 w-[300%] h-[300%] sm:w-[170%] sm:h-[170%] object-cover z-[-1] opacity-5"> 
+            className="absolute  top-0 left-0 w-[310%] h-[310%] sm:w-[180%] sm:h-[180%] object-cover z-[-1] opacity-10 sm:opacity-5"> 
         </video> 
 
 
