@@ -21,7 +21,7 @@ export default function Home() {
 
 
 
-     <div className="flex flex-col justify-center items-center m-4 mb-12  ">
+     <div className="flex flex-col justify-center items-center m-1 sm:m-4 mb-12  ">
 
 
 
@@ -29,13 +29,13 @@ export default function Home() {
 
 
 
-      <div className="bg-[#fcc82d]  w-[90%]  sm:w-[66%] rotate-1 rounded-lg mt-4 shadow-lg  border-8   border-yellow-400 rounded-xl overflow-hidden animate-border-color-change">
-        <div className="p-8 ">
-          <h2 className="text-5xl text-slate-800 font-sans font-bold mb-1 text-center">IDEAR  </h2>
-          <h2 className="text-2xl text-slate-800 font-sans font-bold mb-6 text-center">  Comunicación Digital</h2>
+      <div className="bg-[#fcc82d]  w-[99%]  sm:w-[66%] rotate-1 rounded-lg mt-4 shadow-lg  border-8   border-yellow-400 rounded-xl overflow-hidden animate-border-color-change">
+        <div className="p-2 sm:p-8 ">
+          <h2 className=" text-xl sm:text-5xl text-slate-800 font-sans font-bold mb-1 text-center">IDEAR  </h2>
+          <h2 className="text-xl sm:text-2xl text-slate-800 font-sans font-bold mb-6 text-center">  Comunicación Digital</h2>
 
-          <p className="text-gray-700 text-xl font-mono">
-            Soy <Link className="text-gray-900 text-2xl mb-6"  href="https://www.instagram.com/m.florenciasosa"> @m.florenciasosa</Link> y junto a mi equipo de jóvenes profesionales podemos ayudarte en tu comunicación digital.
+          <p className="text-gray-700 text-base sm:text-xl font-mono">
+            Soy <Link className="text-gray-900 text-lg mb-6"  href="https://www.instagram.com/m.florenciasosa"> @m.florenciasosa</Link> y junto a mi equipo de jóvenes profesionales podemos ayudarte en tu comunicación digital.
           </p>
 
           <div className="text-center">
@@ -73,12 +73,12 @@ export default function Home() {
 
 
 
-    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl  my-14   md:p-2">
+    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-6xl  my-14   sm:p-2">
 
   <div className="border-2 border-yellow-200 rounded-xl overflow-hidden">
-    <div className="p-4 md:p-6">
-      <h3 className="text-xl font-semibold mb-2">Gestión de redes</h3>
-      <p className="text-gray-500 font-mono dark:text-gray-400">Administración efectiva de tus plataformas sociales para una presencia sólida.</p>
+    <div className="p-2 md:p-6">
+      <h3 className="text-lg sm:text-2xl font-semibold mb-2">Gestión de redes</h3>
+      <p className="text-sm sm:text-lg text-sm sm:text-lg text-gray-500 font-mono dark:text-gray-400">Administración efectiva de tus plataformas sociales para una presencia sólida.</p>
     </div>
   </div>
 
@@ -87,33 +87,33 @@ export default function Home() {
 
 
   <div className="border-2 border-yellow-200 rounded-xl overflow-hidden">
-    <div className="p-4 md:p-6">
-      <h3 className="text-xl font-semibold mb-2">Producciones de fotos</h3>
-      <p className="text-gray-500 font-mono dark:text-gray-400">Creación de contenido visual atractivo y profesional para impulsar tu marca.</p>
+    <div className="p-2 md:p-6">
+      <h3 className="text-lg sm:text font-semibold mb-2">Producciones de fotos</h3>
+      <p className="text-sm sm:text-lg text-sm sm:text-lg text-gray-500 font-mono dark:text-gray-400">Creación de contenido visual atractivo y profesional para impulsar tu marca.</p>
     </div>
   </div>
   <div className="border-2 border-yellow-200 rounded-xl overflow-hidden">
-    <div className="p-4 md:p-6">
-      <h3 className="text-xl font-semibold mb-2">Creación de videos</h3>
-      <p className="text-gray-500 font-mono dark:text-gray-400">Videos cautivadores y estratégicos para conectar con tu audiencia.</p>
+    <div className="p-2 md:p-6">
+      <h3 className="text-lg sm:text font-semibold mb-2">Creación de videos</h3>
+      <p className="text-sm sm:text-lg text-gray-500 font-mono dark:text-gray-400">Videos cautivadores y estratégicos para conectar con tu audiencia.</p>
     </div>
   </div>
   <div className="border-2 border-yellow-200 rounded-xl overflow-hidden">
-    <div className="p-4 md:p-6">
-      <h3 className="text-xl font-semibold mb-2">Marketing de influencers</h3>
-      <p className="text-gray-500 font-mono dark:text-gray-400">Colaboraciones con líderes de opinión para amplificar tu alcance.</p>
+    <div className="p-2 md:p-6">
+      <h3 className="text-lg sm:text font-semibold mb-2">Marketing de influencers</h3>
+      <p className="text-sm sm:text-lg text-gray-500 font-mono dark:text-gray-400">Colaboraciones con líderes de opinión para amplificar tu alcance.</p>
     </div>
   </div>
   <div className="border-2 border-yellow-200 rounded-xl overflow-hidden">
-    <div className="p-4 md:p-6">
-      <h3 className="text-xl font-semibold mb-2">Gestión de meta ads</h3>
-      <p className="text-gray-500 font-mono dark:text-gray-400">Campañas publicitarias efectivas en Facebook e Instagram para impulsar conversiones.</p>
+    <div className="p-2 md:p-6">
+      <h3 className="text-lg sm:text font-semibold mb-2">Gestión de meta ads</h3>
+      <p className="text-sm sm:text-lg text-gray-500 font-mono dark:text-gray-400">Campañas publicitarias efectivas en Facebook e Instagram para impulsar conversiones.</p>
     </div>
   </div>
   <div className="border-2 border-yellow-200 rounded-xl overflow-hidden">
-    <div className="p-4 md:p-6">
-      <h3 className="text-xl font-semibold mb-2">Asesorías personalizadas</h3>
-      <p className="text-gray-500 font-mono dark:text-gray-400">Asesoramiento experto y personalizado para optimizar tu estrategia digital.</p>
+    <div className="p-2 md:p-6">
+      <h3 className="text-lg sm:text font-semibold mb-2">Asesorías personalizadas</h3>
+      <p className="text-sm sm:text-lg text-gray-500 font-mono dark:text-gray-400">Asesoramiento experto y personalizado para optimizar tu estrategia digital.</p>
     </div>
   </div>
 </div>
