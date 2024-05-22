@@ -17,17 +17,12 @@ export default function Home() {
 
 
 
-  
-
-
 
      <div className="flex flex-col justify-center items-center m-1 sm:m-4 mb-12  ">
 
 
 
-   
-
-
+    
 
       <div className="bg-[#fcc82d]  w-[99%]  sm:w-[66%] rotate-1 rounded-lg mt-4 shadow-lg  border-8   border-yellow-400 rounded-xl overflow-hidden animate-border-color-change">
         <div className="p-2 sm:p-8 ">
@@ -209,9 +204,13 @@ export default function Home() {
     </footer>
 
 
-
     
 
+    <video src= 
+"/vid.mp4"
+autoPlay="{true}" loop muted 
+            className="absolute  top-0 left-0 w-[300%] h-[300%] sm:w-[170%] sm:h-[170%] object-cover z-[-1] opacity-5"> 
+        </video> 
 
 
 
