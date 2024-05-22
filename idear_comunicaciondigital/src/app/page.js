@@ -67,7 +67,7 @@ export default function Home() {
           alt="Logo"
           width={100} // Adjust the width as needed
           height={100} // Adjust the height as needed
-          className="border-2 border-yellow-100 rounded-xl "
+          className="border-2 border-yellow-100 rounded-xl mt-4 sm:mt-10 "
          // Position the logo above the card
         />
 
@@ -88,31 +88,31 @@ export default function Home() {
 
   <div className="border-2 border-yellow-200 rounded-xl overflow-hidden">
     <div className="p-2 md:p-6">
-      <h3 className="text-lg sm:text font-semibold mb-2">Producciones de fotos</h3>
+      <h3 className="text-lg sm:text-2xl font-semibold mb-2">Producciones de fotos</h3>
       <p className="text-sm sm:text-lg text-sm sm:text-lg text-gray-500 font-mono dark:text-gray-400">Creación de contenido visual atractivo y profesional para impulsar tu marca.</p>
     </div>
   </div>
   <div className="border-2 border-yellow-200 rounded-xl overflow-hidden">
     <div className="p-2 md:p-6">
-      <h3 className="text-lg sm:text font-semibold mb-2">Creación de videos</h3>
+      <h3 className="text-lg sm:text-2xl font-semibold mb-2">Creación de videos</h3>
       <p className="text-sm sm:text-lg text-gray-500 font-mono dark:text-gray-400">Videos cautivadores y estratégicos para conectar con tu audiencia.</p>
     </div>
   </div>
   <div className="border-2 border-yellow-200 rounded-xl overflow-hidden">
     <div className="p-2 md:p-6">
-      <h3 className="text-lg sm:text font-semibold mb-2">Marketing de influencers</h3>
+      <h3 className="text-lg sm:text-2xl font-semibold mb-2">Marketing de influencers</h3>
       <p className="text-sm sm:text-lg text-gray-500 font-mono dark:text-gray-400">Colaboraciones con líderes de opinión para amplificar tu alcance.</p>
     </div>
   </div>
   <div className="border-2 border-yellow-200 rounded-xl overflow-hidden">
     <div className="p-2 md:p-6">
-      <h3 className="text-lg sm:text font-semibold mb-2">Gestión de meta ads</h3>
+      <h3 className="text-lg sm:text-2xl font-semibold mb-2">Gestión de meta ads</h3>
       <p className="text-sm sm:text-lg text-gray-500 font-mono dark:text-gray-400">Campañas publicitarias efectivas en Facebook e Instagram para impulsar conversiones.</p>
     </div>
   </div>
   <div className="border-2 border-yellow-200 rounded-xl overflow-hidden">
     <div className="p-2 md:p-6">
-      <h3 className="text-lg sm:text font-semibold mb-2">Asesorías personalizadas</h3>
+      <h3 className="text-lg sm:text-2xl font-semibold mb-2">Asesorías personalizadas</h3>
       <p className="text-sm sm:text-lg text-gray-500 font-mono dark:text-gray-400">Asesoramiento experto y personalizado para optimizar tu estrategia digital.</p>
     </div>
   </div>
