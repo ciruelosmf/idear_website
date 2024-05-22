@@ -70,12 +70,29 @@ export default function Home() {
 
     <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-6xl  my-14   sm:p-2">
 
-  <div className="border-2 border-yellow-200 rounded-xl overflow-hidden">
+
+
+
+
+  <div className= "   border-2 border-yellow-200 rounded-xl overflow-hidden">
     <div className="p-2 md:p-6">
-      <h3 className="text-lg sm:text-2xl font-semibold mb-2">Gestión de redes</h3>
+      <h3 className="text-lg sm:text-2xl font-semibold  mb-2">Gestión de redes</h3>
       <p className="text-sm sm:text-lg text-sm sm:text-lg text-gray-500 font-mono dark:text-gray-400">Administración efectiva de tus plataformas sociales para una presencia sólida.</p>
     </div>
   </div>
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+
+
+
 
 
 

@@ -26,5 +26,7 @@ module.exports = {
 
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-border-gradient-radius'),
+  ],
 };
